@@ -1,0 +1,114 @@
+body{
+    overflow: hidden;
+}
+.container{
+ display: flex;
+ flex-direction: column;
+ margin: auto;
+ width: 600px;
+ border-radius: 16px;
+ margin-top: 100px;
+ padding: 15px;
+ background-color:rgb(218, 225, 245);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+.text{
+    color: rgb(37, 3, 115);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s linear;
+
+}
+.underline{
+    width: 60px;
+    height: 4px;
+    background: #330c7c;
+    border-radius: 8px;
+    gap: 5px;
+}
+.inputs{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.input img{
+margin: 0 20px;
+}
+.input input{
+    height: 38px;
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(61, 60, 60);
+    font-size: 16px;
+}
+.forgot-password{
+    margin-top: 20px;
+    color: grey;
+    font-size: 16px;
+    text-align: center;
+}
+.forgot-password span{
+    color: rgb(66, 6, 123);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
+.submit-container{
+    display: flex;
+    gap: 0px;
+    margin: 30px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; 
+    height: 38px;
+    color: whitesmoke;
+    background: rgb(33, 6, 102);
+    border-radius: 1.5px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.gray{
+    color: whitesmoke;
+    background: rgb(142, 143, 144);
+    opacity: 0.6;
+    transition: 0s ;
+}
+.gray:hover{
+    opacity:0.8;
+    transition: 0.3s;
+}
+.login-btn{
+    width: 120px;
+    border-radius: 4px;
+    opacity: .8;
+    font-size: 20px;
+}
+.login-btn:hover{
+    opacity: 1;
+    transition: 0.2s;
+}
